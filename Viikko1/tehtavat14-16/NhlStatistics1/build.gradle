@@ -19,9 +19,3 @@ run {
 }
 
 apply plugin: 'jacoco'
-
-jar {
-	manifest {
-		attributes: 'Main-Class': 'ohtuesimerkki.Main'
-	}
-}
