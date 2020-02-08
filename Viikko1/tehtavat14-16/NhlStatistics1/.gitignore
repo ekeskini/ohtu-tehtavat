@@ -1,5 +1,1 @@
-
-*.tmp
-/build/*
-/.gradle/*
 /bin/
