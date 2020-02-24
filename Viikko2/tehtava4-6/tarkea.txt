@@ -1,3 +1,7 @@
+nyt konflikti on todella lähellä
+
+pian pitää toimia konfliktinratkaisijana
+
 kirjoita tiedostoon muutama rivi tekstiä
 
 tässä on toinen rivi
@@ -9,3 +13,6 @@ nyt tiedostoon on lisätty rivejä!? miksiköhän...
 luvassa on konflikti
 
 KONFLIKTI LUVASSA
+...
+TÄMÄ ON KONFLIKTI
+
