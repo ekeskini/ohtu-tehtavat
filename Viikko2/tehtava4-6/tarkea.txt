@@ -1,0 +1,5 @@
+kirjoita tiedostoon muutama rivi tekstiä
+
+tässä on toinen rivi
+
+ja kolmas...
