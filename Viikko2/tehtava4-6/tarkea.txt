@@ -4,6 +4,6 @@ tässä on toinen rivi
 
 ja kolmas...
 
-nyt tiedostoon on lisätty rivejä!?
+nyt tiedostoon on lisätty rivejä!? miksiköhän...
 
-pian on konflikti
+luvassa on konflikti
