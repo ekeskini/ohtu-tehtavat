@@ -3,3 +3,7 @@ kirjoita tiedostoon muutama rivi tekstiä
 tässä on toinen rivi
 
 ja kolmas...
+
+nyt tiedostoon on lisätty rivejä!?
+
+pian on konflikti
