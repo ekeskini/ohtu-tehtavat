@@ -26,7 +26,7 @@ public class Player {
 
     @Override
     public String toString() {
-        return name + " " + team + "\t" + goals + " + " + assists + " = " + (goals + assists);
+        return name + "\t\t" + team + "\t" + goals + " + " + assists + " = " + (goals + assists);
     }
       
 }
