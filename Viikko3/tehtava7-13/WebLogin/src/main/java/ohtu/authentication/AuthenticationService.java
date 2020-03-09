@@ -30,15 +30,29 @@ public class AuthenticationService {
             status.addError("username is already taken");
         }
 
-        if (username.length()<3 ) {
+        if (username.length() < 3) {
             status.addError("username should have at least 3 characters");
         }
-
+        if (password.length() < 8) {
+    		status.addError("password should have at least 8 characters");
+    	}
+        for (int i = 0; i < password.length(); i++) {
+    		if (Character.isDigit(password.charAt(i))) {
+    			break;
+    		}
+    		if (i == password.length() - 1) {
+    			status.addError("password can not consist only of characters");
+    		}
+    	}
+        if (!(password.equals(passwordConfirmation))) {
+        	status.addError("password and password confirmation do not match");
+        }
         if (status.isOk()) {
             userDao.add(new User(username, password));
         }
         
         return status;
     }
-
 }
+
+   

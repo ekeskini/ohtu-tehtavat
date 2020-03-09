@@ -21,4 +21,8 @@ public class CreationStatus {
     public boolean isOk() {
         return errors.isEmpty();
     } 
+    
+    public List<String> getErrors() {
+    	return errors;
+    }
 }
