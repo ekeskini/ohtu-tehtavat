@@ -22,8 +22,7 @@ public class Stepdefs {
     @Given("login is selected")
     public void loginIsSelected() {
         driver.get(baseUrl);
-        WebElement element = driver.findElement(By.linkText("login"));       
-        element.click();   
+        clickLink("login"); 
     }    
     
     @When("correct username {string} and password {string} are given")
@@ -55,8 +54,7 @@ public class Stepdefs {
     @Given("command new user is selected")
     public void commandNewUserIsSelected() {
     	driver.get(baseUrl);
-        WebElement element = driver.findElement(By.linkText("register new user"));       
-        element.click();
+        clickLink("register new user");
     }
     
     @When("a valid username {string} and valid password {string} and matching password confirmation are entered")
@@ -90,7 +88,27 @@ public class Stepdefs {
         createUserWith(username, password1, password2);
     }
 
+    @Given("user with username {string} with password {string} is successfully created")
+    public void userWithUsernameWithPasswordIsSuccessfullyCreated(String username, String password) {
+        driver.get(baseUrl);
+    	clickLink("register new user");
+    	createUserWith(username, password, password);
+        pageHasContent("Welcome to Ohtu Application!");
+        clickLink("continue to application mainpage");
+        pageHasContent("Ohtu Application main page");
+        clickLink("logout");
+    }
 
+    @Given("user with username {string} and password {string} is tried to be created")
+    public void userWithUsernameAndPasswordIsTriedToBeCreated(String username, String password) {
+        driver.get(baseUrl);
+        clickLink("register new user");
+        createUserWith(username, password, password);
+        pageHasContent("username should have at least 3 characters");
+        clickLink("back to home");
+    }
+
+    
     @After
     public void tearDown(){
         driver.quit();
@@ -126,9 +144,9 @@ public class Stepdefs {
     	element.submit();
     }
     
-    private static void sleep(int n){
-        try{
-            Thread.sleep(n*1000);
-        } catch(Exception e){}
+    private void clickLink(String linktext) {
+    	WebElement element = driver.findElement(By.linkText(linktext));
+    	element.click();
     }
+    
 }

@@ -31,3 +31,5 @@ ek1287;salainen1
 liisa1990;sal1
 liisa4661;salainen1
 käyttäjä;salasana1
+newuser;password1
+username2;salasana1
