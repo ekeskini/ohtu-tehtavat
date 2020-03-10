@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ohtu.verkkokauppa.KauppaTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-03-10T10:31:37" hostname="LAPTOP-7KUNE3N7" time="1.297">
+<testsuite name="ohtu.verkkokauppa.KauppaTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-03-10T10:46:17" hostname="LAPTOP-7KUNE3N7" time="1.988">
   <properties/>
-  <testcase name="kahdenTuotteenOstos" classname="ohtu.verkkokauppa.KauppaTest" time="1.259"/>
-  <testcase name="tilisiirrollaOikeatParametrit" classname="ohtu.verkkokauppa.KauppaTest" time="0.005"/>
-  <testcase name="yhtaTuotettaTarpeeksiToistaEi" classname="ohtu.verkkokauppa.KauppaTest" time="0.004"/>
-  <testcase name="useampiSamaaTuotetta" classname="ohtu.verkkokauppa.KauppaTest" time="0.003"/>
-  <testcase name="ostoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaan" classname="ohtu.verkkokauppa.KauppaTest" time="0.007"/>
-  <testcase name="aloitaAsiointiNollaEdelliset" classname="ohtu.verkkokauppa.KauppaTest" time="0.004"/>
-  <testcase name="uusiViiteUudelleOstokselle" classname="ohtu.verkkokauppa.KauppaTest" time="0.01"/>
+  <testcase name="kahdenTuotteenOstos" classname="ohtu.verkkokauppa.KauppaTest" time="1.939"/>
+  <testcase name="tilisiirrollaOikeatParametrit" classname="ohtu.verkkokauppa.KauppaTest" time="0.004"/>
+  <testcase name="yhtaTuotettaTarpeeksiToistaEi" classname="ohtu.verkkokauppa.KauppaTest" time="0.006"/>
+  <testcase name="useampiSamaaTuotetta" classname="ohtu.verkkokauppa.KauppaTest" time="0.006"/>
+  <testcase name="ostoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaan" classname="ohtu.verkkokauppa.KauppaTest" time="0.013"/>
+  <testcase name="koristaPoistoTest" classname="ohtu.verkkokauppa.KauppaTest" time="0.004"/>
+  <testcase name="aloitaAsiointiNollaEdelliset" classname="ohtu.verkkokauppa.KauppaTest" time="0.005"/>
+  <testcase name="uusiViiteUudelleOstokselle" classname="ohtu.verkkokauppa.KauppaTest" time="0.006"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
