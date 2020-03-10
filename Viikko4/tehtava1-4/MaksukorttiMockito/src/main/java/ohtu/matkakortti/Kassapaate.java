@@ -8,12 +8,18 @@ public class Kassapaate {
         this.myytyjaLounaita = 0;
     }
     
-    public void lataa(Maksukortti kortti, int summa){
-        kortti.lataa(summa);
+    public void lataaKortille(Maksukortti kortti, int summa){
+        if (summa < 0) {
+        	return;
+        }
+    	kortti.lataa(summa);
     }
     
     public void ostaLounas(Maksukortti kortti) {
-        kortti.osta(HINTA);
+        if (kortti.getSaldo() < HINTA) {
+        	return;
+        }
+    	kortti.osta(HINTA);
         myytyjaLounaita++;
     }
 
