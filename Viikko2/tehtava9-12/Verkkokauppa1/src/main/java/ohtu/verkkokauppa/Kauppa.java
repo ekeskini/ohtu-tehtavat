@@ -36,6 +36,10 @@ public class Kauppa {
             varasto.otaVarastosta(t);
         }
     }
+    
+    public String getKaupanTili() {
+    	return kaupanTili;
+    }
 
     public boolean tilimaksu(String nimi, String tiliNumero) {
         int viite = viitegeneraattori.uusi();

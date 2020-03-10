@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ohtu.verkkokauppa.KauppaTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-03-10T10:15:22" hostname="LAPTOP-7KUNE3N7" time="1.29">
+  <properties/>
+  <testcase name="kahdenTuotteenOstos" classname="ohtu.verkkokauppa.KauppaTest" time="1.272"/>
+  <testcase name="tilisiirrollaOikeatParametrit" classname="ohtu.verkkokauppa.KauppaTest" time="0.003"/>
+  <testcase name="yhtaTuotettaTarpeeksiToistaEi" classname="ohtu.verkkokauppa.KauppaTest" time="0.003"/>
+  <testcase name="useampiSamaaTuotetta" classname="ohtu.verkkokauppa.KauppaTest" time="0.003"/>
+  <testcase name="ostoksenPaaytyttyaPankinMetodiaTilisiirtoKutsutaan" classname="ohtu.verkkokauppa.KauppaTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
