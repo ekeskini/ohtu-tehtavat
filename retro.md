@@ -1,0 +1,7 @@
+Retrospektiivi on ketterässä kehityksessä kehittäjätiimin työkalu menneen sprintin tarkastelemiseksi. Yleisellä tasolla retrospektiivi on yksinkertaisesti tietyn projektin tai työperiodin reflektointi. Tehtävänannossa linkitetyissä artikkeleissa esitellään kaksi eri retrospektiivitekniikkaa: "Start, Stop, Continue, More of, Less of" ja "Glad, Sad, Mad". 
+
+Molemmissa tekniikoissa keskeistä on asioiden kategorisoiminen eri luokkiin. Luokkien otsikot vaihtelevat, mutta sekä positiivisia että negatiivisia asioita tarkastellaan. 
+
+"Sad":in ja "Mad":in erot ovat ensimmäisen koskevan itse kehittäjätiimiä ja jälkimmäisen kehittäjätiimin ulkopuolisia ongelmia. "Start, Stop, Continue, More of, Less of" toimii enemmän skaalan lailla, johon asetetaan observaatioita. Tavoite on kuitenkin identifioida onnistumiset ja epäonnistumiset. 
+
+Retrospektiivien "suoritusajat" vaihtelevat, yksi kestää 10-25 minuuttia ja toinen jopa tunnin. "Start, Stop, Continue, More of, Less of" on näistä lyhyempi, ja kuvauksessa mainitaan tämän olevan nopea tapa arvostella ja mahdollisesti muuttaa tiimin toimintatapaa. "Glad, Sad, Mad" puolestaan on pidempän aikansa vuoksi metodi jolla yritetään keskustella suuresta määrästä ongelmia. Kuten kuvauksessa mainitaan myös epätriviaaleista asioista joilla ei ole suoraa yhteyttä tiimin työskentelyyn voi keskustella. 
