@@ -53,6 +53,7 @@ public class Statistics {
         ArrayList<Player> matches = new ArrayList<Player>();
         
         for (Player player : players) {
+        	
             if (matcher.matches(player)) {
                 matches.add(player);
             }            
