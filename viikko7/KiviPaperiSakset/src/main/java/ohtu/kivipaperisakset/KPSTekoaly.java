@@ -3,10 +3,11 @@ package ohtu.kivipaperisakset;
 import java.util.Scanner;
 
 public class KPSTekoaly extends KPS{
-	protected KPSTekoaly(Scanner scanner) {
+	//Pelimuodosta riippuen peli on joko normaalilla tai parannetulla tekoälyllä toteutettu, erillistä luokkaa paremmalle tekoälylle ei tarvita
+	protected KPSTekoaly(Scanner scanner, TuomariInterface tuomari, Pelimuoto pelimuoto) {
     	this.scanner = scanner;
-    	this.tuomari = new Tuomari();
-    	this.pelimuoto = new TekoalyNormaali();
+    	this.tuomari = tuomari;
+    	this.pelimuoto = pelimuoto;
     }
    
 	@Override

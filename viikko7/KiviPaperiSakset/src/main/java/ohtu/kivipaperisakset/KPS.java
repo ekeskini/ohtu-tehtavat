@@ -8,6 +8,7 @@ public abstract class KPS {
 	protected TuomariInterface tuomari;
 	
 	public abstract String annaSiirto();
+	//Tämä on pelimuodosta riippuvainen siirto. Kaksinpelissä pyydetään syötettä, tekoäly palauttaa oman siirron
 	public abstract String pelimuotoSiirto();
 	
 	public void pelaa() {
